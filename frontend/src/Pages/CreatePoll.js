@@ -92,8 +92,6 @@ const CreatePoll = () => {
              {
                  toast.success(ob.message);
                  setOptions([{ text: "", isCorrect: null }]);
-                 setquestion(null);
-                 settime(null);
              }else {
                 toast.error(ob.message);
              }
