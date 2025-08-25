@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import { useParams } from "react-router-dom";
 import { io } from "socket.io-client";
 import { TiMessage } from "react-icons/ti";
-const socket = io("http://localhost:4001"); 
+const socket = io("https://live-poll-system.onrender.com"); 
 
 const CreatePoll = () => {
     

@@ -15,7 +15,7 @@ const Poll = require('./Models/Poll');
 const { saveChats } = require('./Controllers/Chat');
 const Chat = require('./Models/Chat');
 app.use(cors({
-    origin: "http://localhost:3000", // remove quotes & trailing slash
+    origin: "https://live-poll-system-one.vercel.app", 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 }));
@@ -31,7 +31,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000", // remove trailing slash
+        origin: "https://live-poll-system-one.vercel.app",
         methods: ["GET", "POST"],
         credentials: true,
     }

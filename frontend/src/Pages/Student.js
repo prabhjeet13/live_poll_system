@@ -24,7 +24,7 @@ const Student = () => {
          }
          try {
                  // api call for create   
-            const result = await axios.post('http://localhost:4001/api/v1/users/createuser',formData);
+            const result = await axios.post('https://live-poll-system.onrender.com/api/v1/users/createuser',formData);
             if(result.status === 201 && result.data.flag === 1)
             {
                   toast.success(result.data.flag_message);  

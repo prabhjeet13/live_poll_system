@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 import { TiMessage } from "react-icons/ti";
 import toast from "react-hot-toast";
 
-const socket = io("http://localhost:4001"); 
+const socket = io("https://live-poll-system.onrender.com"); 
 
 const ActivePoll = () => {
   const [iconclicked, seticonclicked] = useState(false);
