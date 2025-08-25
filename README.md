@@ -47,6 +47,14 @@ Students who are kicked out see a message and are disconnected automatically.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0c13dd1e-4ab6-4e6f-8dcc-021f43b52c50" />
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/990af754-9000-4d9c-a49f-060eda3d6a41" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/13a07c11-f3db-4ad1-8136-a2ab70ee08e4" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9e34e640-e27d-4ad8-80f4-5659836ce756" />
+
+
+
 
 
 
