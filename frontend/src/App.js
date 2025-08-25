@@ -8,7 +8,7 @@ import ActivePoll from './Pages/ActivePoll';
 import ExitStudent from './Pages/ExitStudent';
 function App() {
   return (
-    <div className="mx-auto min-h-[100vh] max-w-[1260px] border-2 border-red-500 flex items-center justify-evenly">
+    <div className="mx-auto min-h-[100vh] max-w-[1260px] flex items-center justify-evenly">
       <Routes>
              <Route path = '/' element = {<Home/>}> </Route>
              <Route path = '/student/enter' element = {<Student/>}> </Route>
